@@ -69,7 +69,8 @@ function calculate(){
             }
             resultField.val(result);
         }
-    } catch (error) {
+    } 
+    catch (error) {
         resultField.val('Error');
     }
 }
